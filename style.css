@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: goldenrod;
+}
+
+.navbar {
+    background-color: gold;
+    display: flex;
+}
+
+.logo {
+    font-size: medium;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    padding: 0 20px
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-links li {
+    display: inline-block;
+    padding: 0 20px;
+    color: blue;
+}
